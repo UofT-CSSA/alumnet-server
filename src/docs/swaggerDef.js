@@ -13,7 +13,8 @@ const swaggerDef = {
   },
   servers: [
     {
-      url: `http://localhost:${config.port}/v1`,
+      // url: `http://localhost:${config.port}/v1`,
+      url: `https://alumnet-server.herokuapp.com/v1`,
     },
   ],
 };
